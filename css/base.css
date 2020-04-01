@@ -1,0 +1,57 @@
+
+body,main{
+    width: 90%;
+    margin: auto;
+    font-family: 'Spicy Rice', cursive;
+    /* font-family: 'Libre Caslon Text', serif; */
+    background-image: url(../assests/images/background-2462436_1920.jpg)
+  }
+  
+  header {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 25px;
+    background-color: green;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 2.6rem;
+    color: whitesmoke;
+  }
+  
+
+img{
+width: 100px;
+height: 80px;
+display: center;
+padding-right: 10px;
+
+
+}
+
+a {
+  text-decoration: none; 
+  padding: 30px;
+  color: whitesmoke;
+  font-size: 24px;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+/* select {
+  width: 50%;
+  height: 45px;
+  font-size: 14pt;
+  max-width: 200px;
+} */
+
+label{
+  color: whitesmoke;
+}
