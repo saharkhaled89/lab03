@@ -74,6 +74,7 @@ $(document).ready(function(){
         element.render();
       });
       var taken = [];
+      $('#keyword').html('');
       keywords.forEach(function(element){
         if(!taken.includes(element)){
           createList(element);
@@ -134,6 +135,8 @@ $(document).ready(function(){
         element.render();
       });
       var taken = [];
+      $('#keyword').html('');
+
       keywords.forEach(function(element){
         if(!taken.includes(element)){
           createList(element);
