@@ -3,7 +3,10 @@
     height: 275px;
     text-align: center;
     display: flex;
-    flex-flow:  wrap;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+   
     justify-content: space-around;
     float: left;
     background-color: whitesmoke;
@@ -18,9 +21,9 @@ section{
   width: 300px;
   max-width: 400px;
   padding: 0 6%; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+
+
+ 
 }
   
   select {
@@ -38,8 +41,12 @@ section{
   }
 
  section.allphotos{border:1 px solid whitesmoke;
-display: flex;
- flex-wrap: wrap;
+  display: grid;
+ grid-template-columns: 250px 250px 250px;
+ grid-column-gap: 80px;
+ border-radius: 10px;
+ grid-row-gap: 20px;
+
   
  
   
@@ -71,9 +78,9 @@ display: flex;
    font-size: 24px;
  }
 
- .allphotos{
+ /* .allphotos{
   
    flex-wrap: wrap;
 
- }
+ } */
 
